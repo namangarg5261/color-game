@@ -1,0 +1,161 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    --webkit-transition:background 0.6s;
+    --moz-transition: background 0.6s;
+
+
+}
+
+.center {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: white;
+    line-height: 1.1;
+    padding: 20px 0 ;
+    text-align: center;
+    font-weight:normal ;
+    background: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#colorDisplay {
+    font-size: 200%;
+
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+
+}
+
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+/* #footerStripe{
+    background: white;
+    height: 50px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    height: 50px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+
+} */
+
+.selected {
+      background: blue;
+    
+    }
+
+    button{
+        border: none;
+        background: none;
+        text-transform: uppercase;
+        height: 100%;
+        font-weight: 700;
+        color: steelblue;
+        letter-spacing: 1px;
+        font-size: inherit;
+        transition: all 0.3s;
+        --webkit-transition:all 0.3s;
+        --moz-transition: all 0.3s;
+        outline: none;
+        
+    
+
+
+    }
+    button:hover{
+        color: white;
+        background: steelblue;
+
+
+    }
+
+
+    footer {
+        padding-bottom: 3rem;
+        font-size: 1.4rem;
+        font-family: "poppins-regular", sans-serif;
+        margin-left: 31%;
+    }
+    footer a, footer a:visited {
+        color: #FFFFFF;
+    }
+    footer a:hover, footer a:focus {
+        color: #FF0077;
+    }
+    footer .row {
+        max-width: 900px;
+    }
+    footer .social {
+        text-align: right;
+    }
+    footer .footerSocial {
+        display: inline-block;
+        font-size: 2.1rem;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -.3rem;
+        text-align:center;
+        margin-top: 23%;
+        margin-left: 25%;
+    }
+    footer .footerSocial li {
+        display: inline-block;
+        margin: 0 18px;
+        padding: 0;
+    }
+    footer .footerSocial li a {
+        color: #FFFFFF;
+    }
+    footer .copyright span {
+        display: inline-block;
+        color: white;
+    }
+    footer .copyright span::after {
+        content: "|";
+        display: inline-block;
+        padding: 0 1rem 0 1.2rem;
+        color: white;
+    }
+    footer .copyright span:last-child::after {
+        display: none;
+    }
+    /**responsive footer**/
+
+@media only screen and (max-width:768px) {
+    footer .foot {
+        left: 0;
+        display: none;
+    }
+  
